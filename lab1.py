@@ -10,12 +10,12 @@ print(myName.upper())
 print(myName.lower())
 
 age = 19
-height = 5 #I think
-weight = math.nan
+height = 5.83 #I think
+weight = 112 # i dont know my weight
 
 print("age: " + str(type(age)))
 print("height: " + str(type(height)))
 print("weight: " + str(type(weight)))
 
-bmi = ((weight/height*12) ** 2 )*703
+bmi = weight / ((height*12) ** 2 )*703
 print("bmi: " + str(bmi))
